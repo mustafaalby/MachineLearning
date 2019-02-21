@@ -24,7 +24,7 @@ from sklearn.preprocessing import PolynomialFeatures
 PolyReg =PolynomialFeatures(degree=2)
 PolyReg.fit_transform(x)
 #%%
-from sklearn.linear_model impo  rt LinearRegression
+from sklearn.linear_model import LinearRegression
 LinearReg2=LinearRegression()
 LinearReg2.fit(PolyReg,y)
 

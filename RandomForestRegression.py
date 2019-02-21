@@ -3,6 +3,7 @@
 # import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 #%%
 df=pd.read_csv("Data\decision-tree-regression-dataset.csv",sep=";",header=None)
 x=df.iloc[:,0].values.reshape(-1,1)
